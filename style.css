@@ -3,13 +3,29 @@ body {
 }
 
 p, li, a {
-font-family: 'Zilla Slab', serif;
+font-family: 'Playfair Display', serif;
+
+}
+
+#floatright {
+	float: right;
 }
 img{
-	float:right;
+	float:center;
 	margin-right:50px;
 	padding:10px;
+	border:2px solid transparent;
+	border-color: navy;
 }
 #homepageheader{
 	background-image: url("wallpaper.png");
 }
+
+a:hover {
+  color: hotpink;
+}
+
+h1{
+	font-family:'Playfair display';
+}
+
